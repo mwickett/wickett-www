@@ -1,0 +1,4 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h2 {{ dato.about[0].title }}
+    p(md) {{ dato.about[0].body }}
