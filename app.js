@@ -35,7 +35,7 @@ module.exports = {
           name: 'about'
         },
         {
-          name: 'articles'
+          name: 'article'
           // Add template rendering here
         }
       ]
