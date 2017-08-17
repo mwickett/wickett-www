@@ -17,7 +17,9 @@ module.exports = {
   ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
   reshape: htmlStandards({
     parser: sugarml,
-    locals: (ctx) => { return Object.assign(locals, { pageId: pageId(ctx) }) },
+    locals: ctx => {
+      return Object.assign(locals, { pageId: pageId(ctx) })
+    },
     minify: env === 'production'
   }),
   postcss: cssStandards({
@@ -35,10 +37,16 @@ module.exports = {
           name: 'about'
         },
         {
-          name: 'article'
-          // Add template rendering here
+          name: 'article',
+          template: {
+            path: 'views/article.sgr',
+            output: article => {
+              return `articles/${article.slug}.html`
+            }
+          }
         }
-      ]
+      ],
+      json: 'data.json'
     })
   ]
 }

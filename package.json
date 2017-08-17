@@ -9,7 +9,7 @@
   "bugs": "https://github.com/mwickett/wickett/issues",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "reshape-standard": "^3.0.0",
+    "reshape-standard": "^3.1.0",
     "sanitize.css": "^5.0.0",
     "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
@@ -21,10 +21,10 @@
     "sugarss": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.22.0",
     "rimraf": "^2.6.1",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   },
   "homepage": "https://github.com/mwickett/wickett",
   "main": "app.js",

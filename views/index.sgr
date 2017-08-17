@@ -3,4 +3,9 @@ extends(src='layout.sgr')
     h2 Hello World!
     ul
       li: a(href='/about') About
-      li: a(href='/articles') Articles
+
+    ul
+      each(loop='article in dato.article')
+        li
+          a(href='/articles/{{ article.slug }}') {{ article.title}}
+          p Slug: {{ article.slug }}
