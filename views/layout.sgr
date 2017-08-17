@@ -1,20 +1,42 @@
 doctype html
-html
+html(lang='en-ca')
   head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    meta(name='description' content='')
-    meta(name='author' content='mwickett')
-    meta(name='viewport' content='width=device-width, initial-scale=1')
+    block(name="globalmeta")
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible' content='IE=edge')
+      meta(name='description' content='')
+      meta(name='author' content='mwickett')
+      meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    block(name="pagemeta")
+      meta(name="description" content='Home')
 
     block(name='title')
-      title Title of Your Site
+      title Wickett
 
+    script.
+      (function(d) {
+        var config = {
+          kitId: 'hal8yvv',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src="https://use.typekit.net/"+config.kitId+".js";tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+
+    style(media='screen').
+     .wf-loading {visibility: hidden;} .wf-active { visibility: visible; }
+
+    link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/5.0.0/sanitize.min.css')
     link(rel='stylesheet' href='css/index.css')
+  
 
-  body
+
+  body(role='document')
+    include(src="_partials/header.sgr")
     main(role='main' id='{{ pageId }}')
       block(name='content')
+    include(src="_partials/footer.sgr")
 
     block(name='javascript')
       script(src='js/main.js' defer)

@@ -1,0 +1,12 @@
+header(role="navigation")#header
+  svg#logo(width='69', height='62', viewbox='0 0 69 62', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+    title Vector 3
+    desc Created using Figma
+    use(xlink:href='#a', transform='translate(1 1)', fill='#FFF')
+    defs
+      path#a(d='M0 22l-.74-.673C-.907 21.51-1 21.75-1 22h1zm46.5 38v1c.3 0 .585-.135.775-.368L46.5 60zM0 60h-1c0 .552.448 1 1 1v-1zM20 0v-1c-.282 0-.55.12-.74.327L20 0zm46.5 0h1c0-.552-.448-1-1-1v1zm0 35.5l.775.632c.145-.178.225-.4.225-.632h-1zM0 23h46.5v-2H0v2zm45.5-1v38h2V22h-2zm1 37H0v2h46.5v-2zM1 60V22h-2v38h2zM.74 22.673l20-22-1.48-1.346-20 22 1.48 1.346zM20 1h46.5v-2H20v2zM65.76-.673l-20 22 1.48 1.346 20-22-1.48-1.346zM65.5 0v35.5h2V0h-2zm.225 34.868l-20 24.5 1.55 1.264 20-24.5-1.55-1.264z')
+  nav
+    ul
+      li Articles
+      li About
+      li Contact

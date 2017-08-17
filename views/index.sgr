@@ -1,9 +1,7 @@
 extends(src='layout.sgr')
   block(name='content')
-    h2 Hello World!
-    ul
-      li: a(href='/about') About
-
+    span.callout: h1 Unlocking potential with strategy + design + code
+    p Here is some new text
     ul
       each(loop='article in dato.article')
         li
