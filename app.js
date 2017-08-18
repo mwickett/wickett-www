@@ -37,6 +37,12 @@ module.exports = {
           name: 'about_page'
         },
         {
+          name: 'contact_page'
+        },
+        {
+          name: 'article_page'
+        },
+        {
           name: 'home_page'
         },
         {

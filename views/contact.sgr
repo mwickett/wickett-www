@@ -1,4 +1,4 @@
 extends(src="layout.sgr")
   block(name="content")
-    h1 Get in touch
-    p Get in touch with me.
+    h1 {{ dato.contact_page[0].title }}
+    p {{ dato.contact_page[0].body }}

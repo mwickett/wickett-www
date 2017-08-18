@@ -1,0 +1,8 @@
+extends(src="layout.sgr")
+  block(name="content")
+    h1 {{ dato.article_page[0].title }}
+    ul
+      each(loop='article in dato.article')
+        li
+          a(href='/articles/{{ article.slug }}') {{ article.title}}
+          p Slug: {{ article.slug }}
