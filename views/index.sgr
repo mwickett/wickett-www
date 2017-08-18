@@ -1,7 +1,7 @@
 extends(src='layout.sgr')
   block(name='content')
-    span.callout: h1 Unlocking potential with strategy + design + code
-    p Here is some new text
+    span.callout: h1 {{ dato.home[0].headerText }}
+    p {{ dato.home[0].about }}
     ul
       each(loop='article in dato.article')
         li

@@ -37,6 +37,9 @@ module.exports = {
           name: 'about'
         },
         {
+          name: 'home'
+        },
+        {
           name: 'article',
           template: {
             path: 'views/article.sgr',
