@@ -1,0 +1,4 @@
+extends(src="layout.sgr")
+  block(name="content")
+    h1 Get in touch
+    p Get in touch with me.

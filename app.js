@@ -34,15 +34,15 @@ module.exports = {
       token: process.env.DATO_KEY,
       models: [
         {
-          name: 'about'
+          name: 'about_page'
         },
         {
-          name: 'home'
+          name: 'home_page'
         },
         {
           name: 'article',
           template: {
-            path: 'views/article.sgr',
+            path: 'views/article_template.sgr',
             output: article => {
               return `articles/${article.slug}.html`
             }
