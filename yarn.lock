@@ -4021,9 +4021,9 @@ map-visit@^0.1.5:
     lazy-cache "^2.0.1"
     object-visit "^0.3.4"
 
-markdown-it@^8.2.2:
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.3.1.tgz#2f4b622948ccdc193d66f3ca2d43125ac4ac7323"
+markdown-it@^8.4.0:
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.0.tgz#e2400881bf171f7018ed1bd9da441dac8af6306d"
   dependencies:
     argparse "^1.0.7"
     entities "~1.1.1"
@@ -5856,9 +5856,9 @@ reshape-content@^0.2.0:
     reshape-plugin-util "^0.2.1"
     when "^3.7.7"
 
-reshape-eval-code@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/reshape-eval-code/-/reshape-eval-code-0.3.3.tgz#a366ff29f893a16beb94c48722c028ac54af29a8"
+reshape-eval-code@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/reshape-eval-code/-/reshape-eval-code-0.3.4.tgz#159335800fca1642ce4b6bebdba2053fbdfa0f24"
   dependencies:
     reshape-code-gen "^0.2.1"
     reshape-parser "^0.2.1"
@@ -5917,20 +5917,20 @@ reshape-retext@^1.0.1:
     retext "^5.0.0"
     when "^3.7.8"
 
-reshape-standard@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/reshape-standard/-/reshape-standard-3.1.0.tgz#dc5131422a7b756a01308af580de1859013b6ffc"
+reshape-standard@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/reshape-standard/-/reshape-standard-3.1.1.tgz#e9d1937f47c2fc6000f5f8d85bfa2be537f071c0"
   dependencies:
-    markdown-it "^8.2.2"
+    markdown-it "^8.4.0"
     reshape-beautify "^0.1.2"
     reshape-content "^0.2.0"
-    reshape-eval-code "^0.3.3"
+    reshape-eval-code "^0.3.4"
     reshape-expressions "^0.1.5"
     reshape-include "^1.0.0"
     reshape-layouts "^1.0.0"
     reshape-minify "^1.1.0"
     reshape-retext "^1.0.1"
-    retext-smartypants "^3.0.0"
+    retext-smartypants "^3.0.1"
 
 reshape@^0.4.1:
   version "0.4.1"
@@ -5995,7 +5995,7 @@ retext-latin@^2.0.0:
     parse-latin "^4.0.0"
     unherit "^1.0.4"
 
-retext-smartypants@^3.0.0:
+retext-smartypants@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/retext-smartypants/-/retext-smartypants-3.0.1.tgz#53d718fde7178a9bc09f120159b0d76cc537fb6c"
   dependencies:
@@ -6486,9 +6486,9 @@ spike-css-standards@^3.0.0:
     postcss-selector-not "^3.0.1"
     rucksack-css "^0.9.1"
 
-spike-datocms@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/spike-datocms/-/spike-datocms-2.0.0.tgz#916814e052f3ceefc4a8ee1560052aac3e2913b7"
+spike-datocms@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/spike-datocms/-/spike-datocms-2.2.1.tgz#17fd71b265d7be102e08feb97af37d2c07e3eaf2"
   dependencies:
     datocms-client "^0.3.25"
     es6bindall "^0.0.9"
@@ -6526,7 +6526,7 @@ spike-util@^1.3.0:
     micromatch "^3.0.4"
     when "^3.7.7"
 
-spike@^2.0.0:
+spike@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/spike/-/spike-2.2.0.tgz#f274f941391252f61e311c3fa4e90e8d8fd9e025"
   dependencies:

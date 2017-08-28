@@ -1,9 +1,5 @@
 extends(src='layout.sgr')
   block(name='content')
+    img.logo(src="img/cube.svg")  
     span.callout: h1 {{ dato.home_page[0].headerText }}
     p {{ dato.home_page[0].about }}
-    ul
-      each(loop='article in dato.article')
-        li
-          a(href='/articles/{{ article.slug }}') {{ article.title}}
-          p Slug: {{ article.slug }}
