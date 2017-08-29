@@ -2,6 +2,7 @@
   --gradient: linear-gradient(262.41deg, #514A9D 10.57%, #24C6DC 97.15%)
   --sans-serif: "brandon-grotesque", sans-serif
   --serif: "abril-text", serif
+  --black: #2d2d2d
   
 
 *
@@ -31,3 +32,20 @@ h5,
 h6
   font-family: var(--sans-serif)
 
+.g-wrap
+  padding-left: 1.05rem
+  padding-right: 1.05rem
+
+.g-button
+  background-color: var(--black)
+  color: white
+  display: inline-block
+  position: relative
+  border: 1px solid transparent
+  white-space: nowrap
+  transition: background-color .15s ease-in-out
+  padding: .35em .5em
+  cursor: pointer
+
+  &:hover
+    background-color: rgba(var(--black), 0.8)

@@ -1,7 +1,10 @@
 header(role="navigation")#header
-  img(src="img/logo.svg")
-  nav
-    ul
-      li: a(href="/articles_page") Articles
-      li: a(href="/about") About
-      li: a(href="/contact") Contact
+  .g-wrap
+    nav.jsNav
+      .logo
+        img(src="img/logo.svg")
+      button.g-button#offsiteNavLauncher Menu
+      ul
+        li: a(href="/articles_page") Articles
+        li: a(href="/about") About
+        li: a(href="/contact") Contact
