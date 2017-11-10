@@ -4,4 +4,4 @@ extends(src='layout.sgr')
       .logo
         img(src="img/cube.svg")  
       span.callout: h1 {{ dato.home_page[0].headerText }}
-      p {{ dato.home_page[0].about }}
+      p(md) {{ dato.home_page[0].about }}
