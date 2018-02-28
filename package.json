@@ -8,23 +8,23 @@
   },
   "bugs": "https://github.com/mwickett/wickett/issues",
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "reshape-standard": "^3.1.1",
+    "dotenv": "^5.0.1",
+    "reshape-standard": "^3.3.0",
     "sanitize.css": "^5.0.0",
-    "spike": "^2.2.0",
+    "spike": "^2.2.1",
     "spike-css-standards": "^3.0.0",
-    "spike-datocms": "^2.2.1",
+    "spike-datocms": "^2.2.2",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
     "sugarml": "^0.6.0",
-    "sugarss": "^1.0.0"
+    "sugarss": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "rimraf": "^2.6.1",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.3"
+    "ava": "^0.25.0",
+    "rimraf": "^2.6.2",
+    "snazzy": "^7.1.0",
+    "standard": "^11.0.0"
   },
   "homepage": "https://github.com/mwickett/wickett",
   "main": "app.js",
