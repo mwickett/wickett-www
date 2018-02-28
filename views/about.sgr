@@ -1,4 +1,4 @@
-extends(src='layout.sgr')
+extends(src='layouts/layout.sgr')
   block(name='content')
     h2 {{ dato.about_page[0].title }}
     p(md) {{ dato.about_page[0].body }}

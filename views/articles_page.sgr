@@ -1,4 +1,4 @@
-extends(src="layout.sgr")
+extends(src="layouts/layout.sgr")
   block(name="content")
     h1 {{ dato.article_page[0].title }}
     ul

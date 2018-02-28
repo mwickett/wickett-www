@@ -16,6 +16,7 @@ module.exports = {
   matchers: { html: '*(**/)*.sgr', css: '*(**/)*.sss' },
   ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
   reshape: htmlStandards({
+    root: process.cwd() + '/views',
     parser: sugarml,
     locals: ctx => {
       return Object.assign(locals, { pageId: pageId(ctx) })
@@ -48,7 +49,7 @@ module.exports = {
         {
           name: 'article',
           template: {
-            path: 'views/article_template.sgr',
+            path: 'views/layouts/article_template.sgr',
             output: article => {
               return `articles/${article.slug}.html`
             }

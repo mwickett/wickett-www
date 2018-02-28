@@ -2,7 +2,7 @@ header(role="navigation")#header
   .g-wrap
     nav.jsNav
       .logo
-        img(src="img/logo.svg")
+        img(src="/img/logo.svg")
       button.g-button#offsiteNavLauncher Menu
       ul
         li: a(href="/articles_page") Articles
