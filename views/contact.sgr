@@ -2,3 +2,15 @@ extends(src="layouts/layout.sgr")
   block(name="content")
     h1 {{ dato.contact_page[0].title }}
     p {{ dato.contact_page[0].body }}
+
+    form(name="contact" method="POST" action="/thanks" netlify)
+      p 
+        label Your name:
+          input(type="text" name="name")
+      
+      p
+        label Your email:
+          input(type="email" name="email")
+
+      p
+        button(type="submit") Send

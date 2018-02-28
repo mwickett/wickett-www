@@ -1,0 +1,4 @@
+extends(src="layouts/layout.sgr")
+  block(name="content")
+    h2 Thanks!
+    p Thanks for getting in touch. I'll reply shortly.
