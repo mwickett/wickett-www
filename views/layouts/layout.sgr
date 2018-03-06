@@ -33,7 +33,7 @@ html(lang='en-ca')
 
 
   body(role='document')
-    include(src="partials/header.sgr")
+    //- include(src="partials/header.sgr")
     main(role='main' id='{{ pageId }}')
       block(name='content')
     include(src="partials/footer.sgr")
