@@ -3,6 +3,8 @@
   --sans-serif: "brandon-grotesque", sans-serif
   --serif: "abril-text", serif
   --black: #2d2d2d
+  --blue: #446CAF
+  --lightblue: #5896FC
   
 
 *
@@ -50,3 +52,13 @@ h6
 
   &:hover
     background-color: rgba(var(--black), 0.8)
+
+a,
+a:visited,
+a:active
+  color: var(--blue)
+  transition: color ease 0.5s
+
+a:hover
+  color: var(--lightblue)
+  transition: color ease 0.5s
